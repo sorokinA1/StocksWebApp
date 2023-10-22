@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/artem/Desktop/C#/ASP.NET/StocksWebApp/StocksWebApp/wwwroot/styles.css",
+      "PackagePath": "staticwebassets/styles.css"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.StocksWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.StocksWebApp.props",
+      "PackagePath": "build\\StocksWebApp.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.StocksWebApp.props",
+      "PackagePath": "buildMultiTargeting\\StocksWebApp.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.StocksWebApp.props",
+      "PackagePath": "buildTransitive\\StocksWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

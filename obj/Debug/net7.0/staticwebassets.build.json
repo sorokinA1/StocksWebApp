@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "T4JGFWI8TYud1XaGLPm0jiAOFT/hwFTyiqdkKGbsRAY=",
+  "Source": "StocksWebApp",
+  "BasePath": "_content/StocksWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StocksWebApp/wwwroot",
+      "Source": "StocksWebApp",
+      "ContentRoot": "/Users/artem/Desktop/C#/ASP.NET/StocksWebApp/StocksWebApp/wwwroot/",
+      "BasePath": "_content/StocksWebApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/artem/Desktop/C#/ASP.NET/StocksWebApp/StocksWebApp/wwwroot/styles.css",
+      "SourceId": "StocksWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/artem/Desktop/C#/ASP.NET/StocksWebApp/StocksWebApp/wwwroot/",
+      "BasePath": "_content/StocksWebApp",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/styles.css"
+    }
+  ]
+}
