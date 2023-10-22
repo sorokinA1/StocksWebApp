@@ -5,17 +5,17 @@ namespace StocksWebApp.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly NewService _newService;
+    private readonly FinnhubService _finnhubService;
 
-    public HomeController(NewService newService)
+    public HomeController(FinnhubService finnhubService)
     {
-        _newService = newService;
+        _finnhubService = finnhubService;
     }
 
     [Route("/")]
     public async Task<IActionResult> Index()
     {
-        await _newService.CreateClient();
+        await _finnhubService.CreateClient();
         return View();
     }
 }

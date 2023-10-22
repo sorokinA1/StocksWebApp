@@ -1,10 +1,12 @@
+using System.Text.Json;
+
 namespace StocksWebApp.Services;
 
-public class NewService
+public class FinnhubService
 {
     private readonly IHttpClientFactory _httpClientFactory;
 
-    public NewService(IHttpClientFactory httpClientFactory)
+    public FinnhubService(IHttpClientFactory httpClientFactory)
     {
         _httpClientFactory = httpClientFactory;
     }
@@ -25,7 +27,8 @@ public class NewService
         var stream = await httpResponseMsg.Content.ReadAsStreamAsync();
 
         var streamReader = new StreamReader(stream);
-
         var response = await streamReader.ReadToEndAsync();
+
+        var responseDictionary = JsonSerializer.Deserialize<Dictionary<string, object?>>(response);
     }
 }
